@@ -14,6 +14,8 @@ const router = express.Router();
 const dbRoute =
   'mongodb+srv://afr741:Anush1996620@fullstackappcluster-2np28.mongodb.net/test?retryWrites=true&w=majority';
 
+
+
 // connects our back end code with the database
 mongoose.connect(process.env.MONGODB_URI || dbRoute, { useNewUrlParser: true });
 
