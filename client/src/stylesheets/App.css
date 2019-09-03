@@ -1,0 +1,45 @@
+.AppBody{
+justify-content: center;
+
+}
+.App{
+  text-align: center;
+  border-style: solid;
+  position: relative;
+  border-width: 1px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.todoItems{
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+margin: 40px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  min-width: 500px;
+  position: relative;
+}
+
+.AppHeader{
+  padding: 60px;
+   text-align: center;
+   background: #1abc9c;
+   color: white;
+
+}
+
+.AppFooter{
+  text-align: center;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  background: #1abc9c;
+color: #fff;
+ font: 18px Arial, sans-serif;
+}
+
+.inputBox{
+  max-width: 100px;
+}
