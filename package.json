@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd backend && node server.js \" \"cd client && npm start\""
+    "start": "concurrently \"cd backend && node server.js \" \"cd client && npm start\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
     "react-bootstrap": "^1.0.0-beta.12"
-  }
+  },
+  "engines": {
+    "node": "12.3.1"
+}
+
 }
